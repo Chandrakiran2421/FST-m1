@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="FSTTests" thread-count="4" parallel = "classes">
+    <test name="FSTActivities">
+        <classes>
+            <class name="Activities_TestNG.TestActivity5" />
+            <class name="Activities_TestNG.TestActivity4_Demoone" />
+            <class name="Activities_TestNG.TestActivity4_Demotwo" />
+             <class name="activities.Activity5" />
+            <class name="activities.Activity6" />
+            <class name="activities.Activity7" />
+        </classes>
+    </test>
+</suite>
